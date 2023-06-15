@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria LC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">Pizzeria LC</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1>Tu comida Favorita</h1>
+                <p>Nuestro restaurante ofrece una amplia selección de pizzas y ensaladas. Nuestro objetivo es brindar una experiencia culinaria excepcional, utilizando ingredientes frescos y auténticos. Nuestro menú incluye pizzas de masa crujiente y ensaladas frescas y coloridas. Nuestro equipo de chefs se enfoca en la calidad de los ingredientes para garantizar sabores irresistibles. Ven a disfrutar de una comida deliciosa y saludable en nuestro acogedor restaurante.</p>
+                <p><b>¡Te esperamos para que pruebes nuestras exquisitas pizzas y ensaladas!</b></p>
+                <a href="#" class="btn-1">seccion menu</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="icons">
+
+        <div class="icon">
+            <img src="images/i1.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i2.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i3.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i4.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i5.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i6.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i7.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i8.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i9.svg" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="images/i10.svg" alt="">
+        </div>
+
+    </section>
+
+    <section class="products container" id="lista-1">
+
+        <h2>Pizzas</h2>
+
+        <div class="products-content">
+
+            <div class="product">
+                <img src="images/pi1.png" alt="">
+                <div class="product-txt">
+                    <h3>Pizza Extravaganza</h3>
+                    <p>Es una deliciosa creación culinaria que combina una variedad de ingredientes exquisitos y sabores intensos.
+                    </p>
+                    <p class="precio">Q.50.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pi2.png" alt="">
+                <div class="product-txt">
+                    <h3>Pizza Jamones y Queso</h3>
+                    <p>Es una deliciosa creación que combina la suavidad del queso derretido con la sabrosa y jugosa textura del jamón.
+                    </p>
+                    <p class="precio">Q.75.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pi3.png" alt="">
+                <div class="product-txt">
+                    <h3>Pizza Vegetales Exoticos</h3>
+                    <p>Es una creación culinaria llena de color, sabor y frescura.</p>
+                    <p class="precio">Q.100.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al Carrito</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="images/pi4.png" alt="">
+                <div class="product-txt">
+                    <h3>Pizza Margarita</h3>
+                    <p>Es una joya culinaria que celebra la simplicidad y la frescura de los ingredientes clásicos.
+                    </p>
+                    <p class="precio">Q.125.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pi5.png" alt="">
+                <div class="product-txt">
+                    <h3>Pizza Di Carne</h3>
+                    <p>Es una creación culinaria para los amantes de la carne y los sabores intensos.
+                    </p>
+                    <p class="precio">Q.150.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pi6.png" alt="">
+                <div class="product-txt">
+                    <h3>Pizza Vegana</h3>
+                    <p>es una opción deliciosa y saludable para aquellos que siguen una dieta basada en plantas o que prefieren opciones libres de productos de origen animal.
+                    </p>
+                    <p class="precio">Q.175.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar al Carrito</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="products container" id="lista-2">
+
+        <h2>Ensaladas</h2>
+
+        <div class="products-content">
+
+            <div class="product">
+                <img src="images/e1.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada Mediteranea</h3>
+                    <p>Es una combinación refrescante y vibrante de ingredientes frescos inspirados en la dieta mediterránea.
+                    </p>
+                    <p class="precio">Q.50.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="10">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/e2.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada Del Caribe</h3>
+                    <p>es una explosión de sabores tropicales que te transporta a las cálidas y exuberantes playas caribeñas.
+                    </p>
+                    <p class="precio">Q.75.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="11">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/e3.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada Mixta</h3>
+                    <p>Es una clásica y versátil opción que combina una variedad de ingredientes frescos y saludables para ofrecer una experiencia culinaria equilibrada y deliciosa.
+                    </p>
+                    <p class="precio">Q.100.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="12">Agregar al Carrito</a>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="images/e4.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada Diabola</h3>
+                    <p>Es una opción perfecta para aquellos que buscan un toque picante y sabores intensos en su ensalada.
+                    </p>
+                    <p class="precio">Q.125.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="13">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/e5.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada De Quesos</h3>
+                    <p>Es una deliciosa y tentadora combinación de quesos que cautiva los paladares de los amantes del queso.
+                    </p>
+                    <p class="precio">Q.150.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="14">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/e6.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada De Filete</h3>
+                    <p>Es una opción sofisticada y sabrosa que combina la jugosidad de los filetes tiernos con la frescura de los ingredientes de una ensalada. </p>
+                    <p class="precio">Q.175.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="15">Agregar al Carrito</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Servicios</h2>
+        <div class="services-container">
+
+            <div class="service">
+                <h3>Servicio de entrega a domicilio</h3>
+                <hr>
+                <p>    
+                    El restaurante puede ofrecer un servicio de entrega de pizzas y ensaladas directamente a la puerta de los clientes. Esto les brinda comodidad y conveniencia, permitiéndoles disfrutar de una comida deliciosa sin salir de casa. 
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Servicio de catering</h3>
+                <hr>
+                <p>    
+                    El restaurante puede ofrecer servicios de catering para eventos especiales, como fiestas, reuniones o celebraciones. Esto incluye la preparación y entrega de pizzas y ensaladas en cantidades adecuadas, junto con opciones adicionales según las necesidades del cliente.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Servicio de comida para llevar</h3>
+                <hr>
+                <p>    
+                    Los clientes pueden ordenar pizzas y ensaladas para llevar y disfrutar en casa o en otro lugar de su elección. El restaurante puede proporcionar envases adecuados para garantizar que los alimentos se mantengan frescos y sabrosos durante el transporte.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Servicio de comedor en el restaurante</h3>
+                <hr>
+                <p>    
+                    Por supuesto, el restaurante también puede ofrecer un servicio de comedor en el lugar, donde los clientes pueden disfrutar de sus pizzas y ensaladas en un ambiente acogedor. Esto incluye un personal atento que brinda un servicio amable y eficiente, asegurando una experiencia gastronómica placentera.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Quienes somos</h2>
+        <div class="services-container">
+
+            <div class="service">
+                <h3>Descripcion del negocio</h3>
+                <hr>
+                <p>    
+                    Bienvenidos a nuestro restaurante, donde la pasión por la comida se combina con la frescura y la creatividad en cada plato. Nos especializamos en pizzas y ensaladas, ofreciendo una amplia variedad de opciones para satisfacer todos los gustos y preferencias.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Mision</h3>
+                <hr>
+                <p>    
+                    Nuestra misión es brindar a nuestros clientes una experiencia gastronómica excepcional al ofrecer pizzas y ensaladas de alta calidad. Nos esforzamos por crear platos deliciosos y saludables, utilizando ingredientes frescos y sabrosos. Buscamos superar las expectativas de nuestros comensales, brindando un servicio amigable y atento en un ambiente acogedor. Además, nos comprometemos a promover prácticas sostenibles y responsables en la preparación de nuestros alimentos.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Vision</h3>
+                <hr>
+                <p>    
+                    Nuestra visión es convertirnos en el restaurante de referencia cuando se trata de pizzas y ensaladas de calidad en nuestra comunidad. Nos esforzamos por ser reconocidos como un destino culinario confiable y preferido, donde los clientes encuentren una variedad de opciones deliciosas y saludables. Buscamos ser líderes en innovación, incorporando nuevas combinaciones de sabores y adaptándonos a las tendencias de la industria alimentaria. Además, aspiramos a crear un ambiente acogedor y familiar donde los clientes se sientan bienvenidos y satisfechos con cada visita a nuestro restaurante.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+
+        <div class="link">
+            <h3>Facebook</h3>
+            <ul>
+                <a href="https://www.facebook.com/tu_pagina" target="_blank" class="facebook-btn">Síguenos en Facebook</a>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Tiktok</h3>
+            <a href="https://www.facebook.com/tu_pagina" target="_blank" class="tiktok-btn">Síguenos en Tiktok</a>
+        </div>
+
+        <div class="link">
+            <h3>Twitter</h3>
+            <ul>
+                <a href="https://www.facebook.com/tu_pagina" target="_blank" class="twitter-btn">Síguenos en Twitter</a>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Instagram</h3>
+            <ul>
+                <a href="https://www.facebook.com/tu_pagina" target="_blank" class="instagram-btn">Síguenos en Instagram</a>
+            </ul>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
